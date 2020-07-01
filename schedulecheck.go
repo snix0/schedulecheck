@@ -36,7 +36,7 @@ func displaySchedule(grp string, weekNumber int) string {
 
     var builder strings.Builder
 
-    for i := 0; scheduleBits != 0; i++ {
+    for i := 0; scheduleBits != 0 && i < 5; i++ {
         if scheduleBits & 1 == 1 {
             builder.WriteString(days[i] + " ")
         }

@@ -33,7 +33,7 @@ func main() {
     _, weekNumber := now.ISOWeek()
     fmt.Println("Current week number:", weekNumber)
 
-    const scheduleText string = "Your office schedule for this week is: "
+    const scheduleText string = "Your office schedule for this week is:"
 
     for {
         fmt.Println("Enter your group [A/b]: ")
